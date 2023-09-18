@@ -1,0 +1,38 @@
+export const specialCourse = [
+  {
+    id: 1,
+    img: "https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    courseName: "Health & Fitness",
+    beforPrice: "26.00",
+    newPrice: "14.00",
+    info: "Investing In Stocks The Complete Course! (13 H...",
+    after: "Kevin Gilbert",
+  },
+  {
+    id: 2,
+    img: "https://images.pexels.com/photos/4827576/pexels-photo-4827576.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    courseName: "Health & Fitness",
+    beforPrice: "26.00",
+    newPrice: "14.00",
+    info: "Investing In Stocks The Complete Course! (13 H...",
+    after: "Kevin Gilbert",
+  },
+  {
+    id: 3,
+    img: "https://images.pexels.com/photos/4261790/pexels-photo-4261790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    courseName: "Health & Fitness",
+    beforPrice: "26.00",
+    newPrice: "14.00",
+    info: "Investing In Stocks The Complete Course! (13 H...",
+    after: "Kevin Gilbert",
+  },
+  {
+    id: 4,
+    img: "https://images.pexels.com/photos/4145075/pexels-photo-4145075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    courseName: "Health & Fitness",
+    beforPrice: "26.00",
+    newPrice: "14.00",
+    info: "Investing In Stocks The Complete Course! (13 H...",
+    after: "Kevin Gilbert",
+  },
+];
