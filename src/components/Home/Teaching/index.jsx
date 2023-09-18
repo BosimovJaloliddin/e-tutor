@@ -31,16 +31,16 @@ const Teaching = () => {
               <span>1</span> <p>Apply to become instructor</p>
             </ContentItem>
             <ContentItem $col="#FF6636" $bg="#FFF0F0">
-              <span>2</span> <p>Apply to become instructor</p>
+              <span>2</span> <p>Build & edit your profile</p>
             </ContentItem>
           </ContentItems>
 
           <ContentItems $mt={20}>
             <ContentItem $col="#FF6636" $bg="#FFF0F0">
-              <span>3</span> <p>Apply to become instructor</p>
+              <span>3</span> <p>Create your new course</p>
             </ContentItem>
             <ContentItem $col="#23BD33" $bg="#E1F7E3">
-              <span>4</span> <p>Apply to become instructor</p>
+              <span>4</span> <p>Start teaching & earning</p>
             </ContentItem>
           </ContentItems>
         </Wrapper>

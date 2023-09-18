@@ -22,12 +22,16 @@ const ContentItems = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 4%;
   margin-top: ${({ $mt }) => $mt && `${$mt}px`};
 `;
 const ContentItem = styled.div`
+  flex: 0 0 48%;
+  max-width: 48%;
+
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 16px;
 
   span {

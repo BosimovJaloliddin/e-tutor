@@ -1,4 +1,5 @@
 import Navbar from "../Navbar";
+import BestTeachers from "./BestTeachers";
 import Category from "./Category";
 import CourseHome from "./CoursesHome";
 import Header from "./Header";
@@ -17,6 +18,7 @@ const Home = () => {
       <SpecialCourseHome />
       <RecentlyCourse />
       <Teaching />
+      <BestTeachers />
     </Container>
   );
 };

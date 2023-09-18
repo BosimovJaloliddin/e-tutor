@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 import { ReactComponent as arrow } from "../../../assets/icons/arrow-right.svg";
 
 const Container = styled.div`
-  margin: 80px 0 40px 0;
+  margin: 80px auto 40px auto;
 `;
 const Wrapper = styled.div`
   display: flex;
