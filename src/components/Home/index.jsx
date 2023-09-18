@@ -5,6 +5,7 @@ import Header from "./Header";
 import RecentlyCourse from "./RecentlyCourse";
 import SpecialCourseHome from "./SpecialCourseHome";
 import { Container } from "./style";
+import Teaching from "./Teaching";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <CourseHome />
       <SpecialCourseHome />
       <RecentlyCourse />
+      <Teaching />
     </Container>
   );
 };

@@ -2,10 +2,11 @@ import { styled } from "styled-components";
 import { ReactComponent as star } from "../../assets/icons/star.svg";
 
 const Container = styled.div`
-  flex: 0 0 19%;
-  max-width: 19%;
+  flex: 0 0 ${({ $w }) => ($w ? `${$w}%` : "19%")};
+  max-width: ${({ $w }) => ($w ? `${$w}%` : "19%")};
   margin-bottom: 25px;
   overflow: hidden;
+  border: 1px solid #e9eaf0;
 `;
 const Wrapper = styled.div`
   display: flex;

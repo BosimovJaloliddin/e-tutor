@@ -12,9 +12,10 @@ import {
 } from "./style";
 
 const Course = (prop) => {
+  console.log(prop);
   const { urlImg, courseName, price, info } = prop.data;
   return (
-    <Container>
+    <Container $w={prop.w}>
       <CourseImg src={urlImg} />
       <CourseInfo>
         <Wrapper>
