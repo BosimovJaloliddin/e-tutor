@@ -12,6 +12,7 @@ const Container = styled.div`
   max-width: 1920px;
   padding: 0 30px;
   margin: auto;
+  border-bottom: 1px solid #e9eaf0;
 `;
 const Wrapper = styled.div`
   display: flex;

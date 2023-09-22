@@ -1,4 +1,3 @@
-import Navbar from "../Navbar";
 import BestTeachers from "./BestTeachers";
 import Category from "./Category";
 import CourseHome from "./CoursesHome";
@@ -12,7 +11,6 @@ import Teaching from "./Teaching";
 const Home = () => {
   return (
     <Container>
-      <Navbar />
       <Header />
       <Category />
       <CourseHome />

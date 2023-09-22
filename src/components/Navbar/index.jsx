@@ -1,3 +1,4 @@
+import { Outlet, useNavigate } from "react-router-dom";
 import {
   Bg,
   Container,
@@ -12,14 +13,15 @@ import {
 } from "./style";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Bg>
         <Container>
           <Wrapper>
             <NavItems>
-              <NavItem>Home</NavItem>
-              <NavItem>Courses</NavItem>
+              <NavItem onClick={() => navigate("/home")}>Home</NavItem>
+              <NavItem onClick={() => navigate("/category")}>Category</NavItem>
               <NavItem>About</NavItem>
               <NavItem>Contact</NavItem>
               <NavItem>Become an Instructor</NavItem>
@@ -67,6 +69,7 @@ const Navbar = () => {
           </Content>
         </Wrapper>
       </Container>
+      <Outlet />
     </>
   );
 };

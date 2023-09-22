@@ -35,8 +35,7 @@ const Subtitle = styled.p`
 const HeaderImg = styled.img`
   flex: 0 0 47%;
   max-width: 47%;
-  background-position: top left;
-  background-size: contain;
+  height: 440px;
   padding-right: 0;
 `;
 const Btn = styled.button`
