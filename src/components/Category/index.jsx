@@ -1,4 +1,5 @@
 import BastSellingCourses from "./BestSellingCourses";
+import PopularInstructors from "./PopularInstructors";
 import PopularTools from "./PopularTools";
 import { Container } from "./style";
 
@@ -7,6 +8,7 @@ const Category = () => {
     <Container>
       <BastSellingCourses />
       <PopularTools />
+      <PopularInstructors />
     </Container>
   );
 };

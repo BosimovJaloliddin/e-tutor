@@ -1,4 +1,4 @@
-import BestTeachers from "./BestTeachers";
+import HomeBestTeachers from "./HomeBestTeachers";
 import Category from "./Category";
 import CourseHome from "./CoursesHome";
 import Header from "./Header";
@@ -17,7 +17,7 @@ const Home = () => {
       <SpecialCourseHome />
       <RecentlyCourse />
       <Teaching />
-      <BestTeachers />
+      <HomeBestTeachers />
       <Sites />
     </Container>
   );

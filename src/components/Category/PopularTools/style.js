@@ -1,6 +1,8 @@
 import { styled } from "styled-components";
 
-const Container = styled.div``;
+const Container = styled.div`
+  margin-bottom: 80px;
+`;
 const Title = styled.h3`
   font-size: 22px;
   font-weight: 600;

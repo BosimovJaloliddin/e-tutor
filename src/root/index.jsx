@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import { navbar } from "../utils/navbar";
 
 const Root = () => {
-  console.log(navbar);
   return (
     <BrowserRouter>
       <Routes>
